@@ -12,6 +12,13 @@ vision-trax/
 └── src/           # Source code
 ```
 
+## Documentation
+
+- [Software Architecture](docs/software-architecture.md) - UML diagrams and component descriptions
+- [Application Process Flow](docs/application-flow.md) - Detailed explanation of the application workflow and model training process
+- [Video Processing Pipeline](docs/video-processing-pipeline.md) - Guide to the video processing pipeline implementation
+- [Dependencies](docs/dependency-descriptions.md) - Description of project dependencies and their purposes
+
 ## Setup
 
 1. Create a Python virtual environment:
