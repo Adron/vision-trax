@@ -32,7 +32,7 @@ I'll divide this into two primary engineering estimates.
 **User Stories:**
 - **Story 1.2.1:** Create and configure Azure Blob Storage containers with appropriate access policies
   - *LOE: 1-2 days*
-  - *Acceptance Criteria:* Containers exist for raw videos, processed videos, and analysis results with proper RBAC
+  - *Acceptance Criteria:* Storage exist for raw videos, processed videos, and analysis results with proper RBAC
 - **Story 1.2.2:** Implement data lifecycle policies for automatic cleanup and cost optimization
   - *LOE: 1 day*
   - *Acceptance Criteria:* Policies automatically archive/delete old data based on defined rules
@@ -46,7 +46,7 @@ I'll divide this into two primary engineering estimates.
 ### 1.3 Attain a method of automation for retrieval and storage of the videos from Genetec Servers.
 **LOE: 2-3 weeks**
 
-**Elaboration:** Develop an automated system to securely retrieve video files from Genetec Security Center servers and transfer them to Azure Blob Storage. This involves understanding Genetec APIs, implementing secure authentication, and creating a reliable transfer mechanism.
+**Elaboration:** Develop an automated system to securely retrieve video files from Genetec Security Center servers and transfer them to Azure Blob Storage. This involves understanding Genetec APIs, implementing secure authentication (or tooling to manage this), and creating a reliable transfer mechanism.
 
 **User Stories:**
 - **Story 1.3.1:** Research and document Genetec Security Center API capabilities and authentication methods
@@ -190,6 +190,5 @@ I'll divide this into two primary engineering estimates.
 **Success Criteria:**
 - Automated video processing pipeline operational
 - Consistent and accurate "busy" window identification
-- Comprehensive analysis and reporting capabilities
+- Analysis and reporting of the 6 requested metrics.
 - Scalable and maintainable system architecture
-
