@@ -1,4 +1,6 @@
-I'll divide this into two primary engineering estimates.
+# Camera Vision Project LOE
+
+This is divide this into two primary engineering estimates.
 
 1. The current discovery and related initial setup of environment, coding, and first execution of video processing.
 2. Ongoing development, testing, and video processing as store video comes available each day.
