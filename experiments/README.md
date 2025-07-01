@@ -21,4 +21,4 @@ Each experiment should include:
 ## Naming Convention
 
 Use the following format for experiment directories:
-`YYYY-MM-DD_experiment-name` 
+`YYYY-MM-DD_experiment-name`

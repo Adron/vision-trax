@@ -19,6 +19,7 @@ vision-trax/
 - [Video Processing Pipeline](docs/video-processing-pipeline.md) - Guide to the video processing pipeline implementation
 - [Dependencies](docs/dependency-descriptions.md) - Description of project dependencies and their purposes
 - [Server Operations](docs/server-operations.md) - Comprehensive guide for deploying and operating on GPU-enabled servers with multiple processors
+- [SSH Setup and File Sharing](docs/ssh-setup-and-file-sharing.md) - Guide for setting up SSH access with private PEM keys and configuring Samba file sharing for Windows/macOS integration
 
 ## Setup
 
