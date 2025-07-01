@@ -18,6 +18,7 @@ vision-trax/
 - [Application Process Flow](docs/application-flow.md) - Detailed explanation of the application workflow and model training process
 - [Video Processing Pipeline](docs/video-processing-pipeline.md) - Guide to the video processing pipeline implementation
 - [Dependencies](docs/dependency-descriptions.md) - Description of project dependencies and their purposes
+- [Server Operations](docs/server-operations.md) - Comprehensive guide for deploying and operating on GPU-enabled servers with multiple processors
 
 ## Setup
 
